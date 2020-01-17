@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+        function sayHi() {
+            alert('hi, hii hii');
+        }
+        function sayHey(message) {
+            alert(message);
+        }
+        function add(x, y) {
+            console.log(x + y);
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="sayHi()">Hi</button>
+    <button onclick="sayHey('Where is May?')">Hey</button>
+    <button onclick="add(10,20)">Add</button>
+    <button onclick="add(100,200)">Add 1</button>
+
+    <img id="bulb" src="on.gif" alt="" onblu onclick="document.getElementById('bulb').src='on.gif'">
+    <form action="">
+        <input type="text" id="inp" onblur="document.getElementById('bulb').src='off.gif'; 
+    document.getElementById('inp').style.color='green'" onfocus="document.getElementById('bulb').src='on.gif';
+document.getElementById('inp').style.color='red'"">
+<p id=" para" onclick="alert('one');alert('two');
+document.getElementById('para').style.display='none'">Click</p>
+    </form>
+</body>
+</html>

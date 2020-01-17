@@ -1,0 +1,26 @@
+/* Exteral stylesheets are separate css files
+Reused across multiple html files */
+p {
+    color:white;
+    background-color: black;
+}
+
+span {
+    color : green
+}
+
+div{
+    font-style:italic
+}
+
+.preference{
+ color:orange;
+}
+
+.hobby{
+    color:darkorchid
+}
+
+#idofmydiv{
+    color:deeppink
+}
